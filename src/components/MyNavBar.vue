@@ -45,12 +45,12 @@ const items = ref([
     </template>
     
         
-    <template :model="montosNav" #end>
+    <!--<template :model="montosNav" #end>
         <span class="montosNav">Total: </span>
         <span class="montosNav">{{montoDolar}} $</span>
         <span class="montosNav">{{montoBs}} Bs. </span>
-        <i class="pi pi-shopping-cart med-icon"></i>
-    </template>
+        <i v-badge  class="pi pi-shopping-cart med-icon p-overlay-badge"></i>
+    </template>-->
 </Menubar>
 
 </template>
